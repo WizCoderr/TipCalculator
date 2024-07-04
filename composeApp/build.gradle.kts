@@ -102,6 +102,15 @@ compose.desktop {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "live.sayam.tip_calculator"
             packageVersion = "1.0.0"
+            windows{
+                iconFile.set(project.file("commonMain/resources/icon.ico"))
+            }
+            linux{
+                iconFile.set(project.file("commonMain/resources/icon.png"))
+            }
+            macOS{
+                iconFile.set(project.file("commonMain/resources/icon.icns"))
+            }
         }
     }
 }
