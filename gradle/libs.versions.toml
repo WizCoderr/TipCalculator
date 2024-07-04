@@ -11,7 +11,6 @@ compose-plugin = "1.6.11"
 junit = "4.13.2"
 kotlin = "2.0.0"
 materialKolor = "1.7.0"
-icon_extended="1.6.8"
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
@@ -24,9 +23,6 @@ androidx-material = { group = "com.google.android.material", name = "material", 
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "androidx-constraintlayout" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
 materialKolor = { module = "com.materialkolor:material-kolor", version.ref = "materialKolor" }
-icon-extended={group="androidx.compose.material",name="material-icons-extended",version.ref="icon_extended"}
-icon-extended-android={group="androidx.compose.material",name="material-icons-extended-android",version.ref="icon_extended"}
-icon-extended-desktop={group="androidx.compose.material",name="material-icons-extended-desktop",version.ref="icon_extended"}
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
